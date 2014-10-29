@@ -1,7 +1,10 @@
 \documentclass[12pt,letterpaper,twoside,final]{memoir}
-%M-x shell
+
 %latexmk -pdf -e '$pdflatex=q/xelatex %O %S/' *.tex
 %latexmk -pdf -pvc -e '$pdflatex=q/xelatex %O %S/' *.tex
+
+%Reject pattern: ind[e|u|ig|icat|oc|om|or|ol|on]
+
 \usepackage[no-math]{fontspec}
 \usepackage{xltxtra}
 \defaultfontfeatures{Scale=MatchLowercase,Mapping=tex-text}
@@ -137,11 +140,8 @@
 
 \chapter{Introduction}
 \minitoc
-Organization of this corpus? Options that come to mind are by (a) purported original reporter (e.g., Nicoalus of Damascus, non--extant historian), (b) reporting extant author (e.g., Strabo citing, but not quoting, Nicolaus at \emph{Geographica} 15.1.72--73), (c) by event (e.g., an embassy from Indian kingdom to Augustus in 19 BC, (d) types of people (e.g., gymnosophists or sramana), (e) story types (parallel fables or tropes, like walking on the water), (f) philosophical or religious concepts (like love and compassion). Further, I should consider whether there may be a home in this document for material culture such as statuary, painting, and coinage.
 
-Another issue is one of perspective: from whose side am I recording this? Indians as they seemed to the Greeks? Greeks as they seemed to the Indians? Might either option lose subtleties of particular authors?
-
-And what about distinct but sometimes related or confused cultures, namely the Ethiopians. 
+This corpus is simple. It offers every reference to India in Classical Greek and Latin literature. More specifically, it collects the context of every occurrence of '\textgreek{Ἰνδ}' in the TLG and 'Ind' in the PHI5 corpora.
 
 %\part{India in Greek and Roman sources}
 
@@ -2742,7 +2742,6 @@ PARAPEGMA MILES. 456 D I 1 [Χηλαὶ ἑσπέριαι δύνο]υσιν
 
 \section{Aristoxenus}
 \blockquote[From Wikipedia\footnote{\url{http://en.wikipedia.org/wiki/Aristoxenus}}]{Aristoxenus of Tarentum (Greek: Ἀριστόξενος; fl. 335 BC) was a Greek Peripatetic philosopher, and a pupil of Aristotle. Most of his writings, which dealt with philosophy, ethics and music, have been lost, but one musical treatise, Elements of Harmony, survives incomplete, as well as some fragments concerning rhythm and meter. The Elements is the chief source of our knowledge of ancient Greek music.[1]}
-\begin{greek}
 
 
 Aristoxenus Mus., Fragmenta (0088: 006)
@@ -2750,19 +2749,18 @@ Aristoxenus Mus., Fragmenta (0088: 006)
 Basel: Schwabe, 1967; Die Schule des Aristoteles, vol. 2, 2nd edn..
 Fragment 53, line 3
 
+\begin{greek}
                                                                            ... φησὶ 
 δ' Ἀριστόξενος ὁ μουσικὸς Ἰνδῶν εἶναι τὸν λόγον τοῦτον. 
-
+\end{greek}
 
 
 Aristoxenus Mus., Fragmenta 
 Fragment 53, line 6
-
+\begin{greek}
                         τοῦ δ' εἰπόντος, ὅτι ζητῶν περὶ τοῦ ἀνθρωπίνου βίου, 
 καταγελάσαι τὸν Ἰνδόν, λέγοντα μὴ δύνασθαί τινα τὰ ἀνθρώπινα κατιδεῖν 
 ἀγνοοῦντά γε τὰ θεῖα. 
-
-
 \end{greek}
 
 
@@ -50760,6 +50758,7 @@ Alphabetic letter iota, lemma 39, line 1
 
 \chapter{Unsorted entries}
 
+\section{Vitae Dionysii Periegetae, Vita Dionysii}
 \begin{greek}
 
 Vitae Dionysii Periegetae, Vita Dionysii (4173: 001)
@@ -50771,6 +50770,8 @@ Line 38
 ἔγνω τὸν ἑῶιον Ὠκεανόν, Ἀντίοχοί τε καὶ Πτολομαῖοι περιιόντες 
 οὐκ ὀλίγην ἱστόρησαν γῆν. 
 
+
+\section{Apomasar Astrol.}
 
 
 Apomasar Astrol., De revolutionibus nativitatum (4361: 008)
@@ -50930,8 +50931,7 @@ Page 236, line 33
 ἕνα μῆνα ἐλάττονα ἢ μείζονα τοῦ ἑτέρου. 
 
 
-
-
+\section{[Clitophon] Hist.}
 [Clitophon] Hist., Fragmenta (1281: 002)
 “FHG 4”, Ed. Müller, K.
 Paris: Didot, 1841–1870.
@@ -50956,6 +50956,7 @@ E LIBRO DECIMO.
 
 
 
+\section{Georgius Syncellus Chronogr.}
 Georgius Syncellus Chronogr., Ecloga chronographica (3045: 001)
 “Georgius Syncellus. Ecloga chronographica”, Ed. Mosshammer, A.A.
 Leipzig: Teubner, 1984.
@@ -51203,6 +51204,8 @@ Page 416, line 22
 Ἰνδῶν καὶ Βραχμάνων ἐπανελθόντι τῶν ἐκεῖσε Γυμνοσοφιστῶν. 
 
 
+
+\section{Plutarchus Biogr.}
 Plutarchus Biogr., Phil., Lycurgus (0007: 004)
 “Plutarch's lives, vol. 1”, Ed. Perrin, B.
 Cambridge, Mass.: Harvard University Press, 1914, Repr. 1967.
@@ -51215,8 +51218,6 @@ Chapter 4, section 6, line 3
 Ἰνδικὴν πλανηθεὶς τοῖς Γυμνοσοφισταῖς ὡμίλη-
 σεν, οὐδένα πλὴν Ἀριστοκράτη τὸν Ἱππάρχου 
 Σπαρτιάτην εἰρηκότα γινώσκομεν. 
-
-
 
 Plutarchus Biogr., Phil., Aemilius Paullus (0007: 019)
 “Plutarchi vitae parallelae, vol. 2.1, 2nd edn.”, Ed. Ziegler, K.
@@ -51833,406 +51834,14 @@ ruinas dissolutum in cinerem prodidit.
 <ΠΙΝΔ*αΡΟΥ ΒΙΟΣ>
 
 
+\section{Eustathius}
  Eustathius, Prooem. Comm. Pindaricorum, c. 25. Ἐπι-
 μεμέληται ὑπὸ τῶν παλαιῶν καὶ εἰς γένους ἀναγραφὴν τὴν 
 κατά τε Πλούταρχον καὶ ἑτέρους, παρ' οἷς φέρεται ὅτι 
 κώμη Θηβαίων οἱ Κυνοσκέφαλοι. 
 
 
-
-Herodotus Hist., Historiae (0016: 001)
-“Hérodote. Histoires, 9 vols.”, Ed. Legrand, Ph.–E.
-Paris: Les Belles Lettres, 1:1932; 2;1930; 3:1939; 4 (3rd edn.): 1960; 5:1946; 6:1948; 7:1951; 8:1953; 9:1954, Repr. 1:1970; 2:1963; 3:1967; 5:1968; 6:1963; 7:1963; 8:1964; 9:1968.
-Book 1, section 192, line 18
-
-                                                    Κυνῶν δὲ 
-Ἰνδικῶν τοσοῦτο δή τι πλῆθος ἐτρέφετο ὥστε τέσσερες 
-τῶν ἐν τῷ πεδίῳ κῶμαι μεγάλαι, τῶν ἄλλων ἐοῦσαι ἀτελέες, 
-τοῖσι κυσὶ προσετετάχατο σιτία παρέχειν. 
-
-
-
-Herodotus Hist., Historiae 
-Book 3, section 38, line 15
-
-                               Δαρεῖος δὲ μετὰ ταῦτα καλέσας 
-Ἰνδῶν τοὺς καλεομένους Καλλατίας, οἳ τοὺς γονέας κατ-
-εσθίουσι, εἴρετο, παρεόντων τῶν Ἑλλήνων καὶ δι' ἑρμηνέος 
-μανθανόντων τὰ λεγόμενα, ἐπὶ τίνι χρήματι δεξαίατ' ἂν 
-τελευτῶντας τοὺς πατέρας κατακαίειν πυρί· οἱ δὲ ἀμβώ-
-σαντες μέγα εὐφημέειν μιν ἐκέλευον. 
-
-
-
-Herodotus Hist., Historiae 
-Book 3, section 94, line 7
-
-               Μόσχοισι δὲ καὶ Τιβαρηνοῖσι καὶ Μάκρωσι 
-καὶ Μοσσυνοίκοισι καὶ Μαρσὶ τριηκόσια τάλαντα προεί-
-ρητο· νομὸς εἴνατος καὶ δέκατος οὗτος Ἰνδῶν δὲ πλῆθός 
-τε πολλῷ πλεῖστόν ἐστι πάντων τῶν ἡμεῖς ἴδμεν 
-ἀνθρώπων καὶ φόρον ἀπαγίνεον πρὸς πάντας τοὺς ἄλλους 
-ἑξήκοντα καὶ τριηκόσια τάλαντα ψήγματος· νομὸς εἰκοστὸς 
-οὗτος. 
-
-
-
-Herodotus Hist., Historiae 
-Book 3, section 97, line 9
-
-                                        .. οἳ περί τε Νύσην 
-τὴν ἱρὴν κατοίκηνται καὶ τῷ Διονύσῳ ἀνάγουσι τὰς ὁρτάς· 
-[οὗτοι οἱ Αἰθίοπες καὶ οἱ πλησιόχωροι τούτοισι σπέρματι 
-μὲν χρέωνται τῷ αὐτῷ τῷ καὶ οἱ Καλλαντίαι Ἰνδοί, οἰκή-
-ματα δὲ ἔκτηνται κατάγαια]· οὗτοι συναμφότεροι διὰ τρί-
-του ἔτεος ἀγίνεον, ἀγινέουσι δὲ καὶ τὸ μέχρις ἐμέο, δύο   
-χοίνικας ἀπύρου χρυσίου καὶ διηκοσίας φάλαγγας ἐβένου 
-καὶ πέντε παῖδας Αἰθίοπας καὶ ἐλέφαντος ὀδόντας μεγά-
-λους εἴκοσι. 
-
-
-
-Herodotus Hist., Historiae 
-Book 3, section 98, line 1
-
-Τὸν δὲ χρυσὸν τοῦτον τὸν πολλὸν οἱ Ἰνδοί, ἀπ' οὗ τὸ 
-ψῆγμα τῷ βασιλέϊ τὸ εἰρημένον κομίζουσι, τρόπῳ τοιῷδε 
-κτῶνται. 
-
-
-
-Herodotus Hist., Historiae 
-Book 3, section 98, line 3
-
-          Ἔστι τῆς Ἰνδικῆς χώρης τὸ πρὸς ἥλιον ἀνί-
-σχοντα ψάμμος· τῶν γὰρ ἡμεῖς ἴδμεν, τῶν καὶ πέρι ἀτρεκές 
-τι λέγεται, πρῶτοι πρὸς ἠῶ καὶ ἡλίου ἀνατολὰς οἰκέουσι 
-ἀνθρώπων τῶν ἐν τῇ Ἀσίῃ Ἰνδοί· Ἰνδῶν γὰρ τὸ πρὸς τὴν 
-ἠῶ ἐρημίη ἐστὶ διὰ τὴν ψάμμον. 
-
-
-
-Herodotus Hist., Historiae 
-Book 3, section 98, line 8
-
-Ἔστι δὲ πολλὰ ἔθνεα Ἰνδῶν καὶ οὐκ ὁμόφωνα σφίσι, καὶ 
-οἱ μὲν αὐτῶν νομάδες εἰσί, οἱ δὲ οὔ, οἱ δὲ ἐν τοῖσι ἕλεσι 
-οἰκέουσι τοῦ ποταμοῦ καὶ ἰχθῦς σιτέονται ὠμούς, τοὺς 
-αἱρέουσι ἐκ πλοίων καλαμίνων ὁρμώμενοι· καλάμου δὲ ἓν 
-γόνυ πλοῖον ἕκαστον ποιέεται. 
-
-
-
-Herodotus Hist., Historiae 
-Book 3, section 98, line 12
-
-                                   Οὗτοι μὲν δὴ τῶν Ἰνδῶν 
-φορέουσι ἐσθῆτα φλοΐνην· ἐπεὰν ἐκ τοῦ ποταμοῦ φλοῦν   
-ἀμήσωνται καὶ κόψωσι, τὸ ἐνθεῦτεν φορμοῦ τρόπον κα-
-ταπλέξαντες ὡς θώρηκα ἐνδύνουσι. 
-
-
-
-Herodotus Hist., Historiae 
-Book 3, section 99, line 1
-
-                                      Ἄλλοι δὲ τῶν Ἰνδῶν 
-πρὸς ἠῶ οἰκέοντες τούτων νομάδες εἰσί, κρεῶν ἐδεσταὶ 
-ὠμῶν, καλέονται δὲ Παδαῖοι. 
-
-
-
-Herodotus Hist., Historiae 
-Book 3, section 100, line 1
-
-                                     Ἑτέρων δέ ἐστι Ἰνδῶν 
-ὅδε ἄλλος τρόπος· οὔτε κτείνουσι οὐδὲν ἔμψυχον οὔτε τι 
-σπείρουσι οὔτε οἰκίας νομίζουσι ἐκτῆσθαι ποιηφαγέουσί τε, 
-καὶ αὐτοῖσι <ὄσπριόν τι> ἔστι ὅσον κέγχρος τὸ μέγαθος ἐν 
-κάλυκι, αὐτόματον ἐκ τῆς γῆς γινόμενον, τὸ συλλέγοντες 
-αὐτῇ τῇ κάλυκι ἕψουσί τε καὶ σιτέονται. 
-
-
-
-Herodotus Hist., Historiae 
-Book 3, section 101, line 2
-
-                                                     Μίξις δὲ 
-τούτων τῶν Ἰνδῶν τῶν κατέλεξα πάντων ἐμφανής ἐστι   
-κατά περ τῶν προβάτων, καὶ τὸ χρῶμα φορέουσι ὅμοιον 
-πάντες καὶ παραπλήσιον Αἰθίοψι. 
-
-
-
-Herodotus Hist., Historiae 
-Book 3, section 101, line 7
-
-                                        Οὗτοι μὲν τῶν Ἰνδῶν 
-ἑκαστέρω τῶν Περσέων οἰκέουσι καὶ πρὸς νότου ἀνέμου 
-καὶ Δαρείου βασιλέος οὐδαμὰ ὑπήκουσαν. 
-
-
-
-Herodotus Hist., Historiae 
-Book 3, section 102, line 2
-
-                                               Ἄλλοι δὲ τῶν 
-Ἰνδῶν Κασπατύρῳ τε πόλι καὶ τῇ Πακτυϊκῇ χώρῃ εἰσὶ 
-πρόσοικοι, πρὸς ἄρκτου τε καὶ βορέω ἀνέμου κατοικημένοι 
-τῶν ἄλλων Ἰνδῶν, οἳ Βακτρίοισι παραπλησίην ἔχουσι δίαι-
-ταν. 
-
-
-
-Herodotus Hist., Historiae 
-Book 3, section 102, line 5
-
-     Οὗτοι καὶ μαχιμώτατοί εἰσι Ἰνδῶν καὶ οἱ ἐπὶ τὸν 
-χρυσὸν στελλόμενοί εἰσι οὗτοι· κατὰ γὰρ τοῦτό ἐστι ἐρημίη 
-διὰ τὴν ψάμμον. 
-
-
-
-Herodotus Hist., Historiae 
-Book 3, section 102, line 16
-
-           Ἐπὶ δὴ ταύτην τὴν ψάμμον στέλλονται ἐς τὴν 
-ἔρημον οἱ Ἰνδοί, ζευξάμενος ἕκαστος καμήλους τρεῖς, σειρη-  
-φόρον μὲν ἑκατέρωθεν ἔρσενα παρέλκειν, θήλεαν δὲ ἐς 
-μέσον· ἐπὶ ταύτην δὴ αὐτὸς ἀναβαίνει, ἐπιτηδεύσας ὅκως 
-ἀπὸ τέκνων ὡς νεωτάτων ἀποσπάσας ζεύξει· αἱ γάρ σφι 
-κάμηλοι ἵππων οὐκ ἥσσονες ἐς ταχυτῆτά εἰσι· χωρὶς δὲ 
-ἄχθεα δυνατώτεραι πολλὸν φέρειν. 
-
-
-
-Herodotus Hist., Historiae 
-Book 3, section 104, line 1
-
-                          Οἱ δὲ δὴ Ἰνδοὶ τρόπῳ τοιούτῳ καὶ 
-ζεύξι τοιαύτῃ χρεώμενοι ἐλαύνουσι ἐπὶ τὸν χρυσὸν λελογις-
-μένως ὅκως [ἂν] καυμάτων τῶν θερμοτάτων ἐόντων ἔσον-
-ται ἐν τῇ ἁρπαγῇ· ὑπὸ γὰρ τοῦ καύματος οἱ μύρμηκες 
-ἀφανέες γίνονται ὑπὸ γῆν. 
-
-
-
-Herodotus Hist., Historiae 
-Book 3, section 104, line 12
-
-                                Θερμότατος δέ ἐστι ὁ ἥλιος 
-τούτοισι τοῖσι ἀνθρώποισι τὸ ἑωθινόν, οὐ κατά περ τοῖσι 
-ἄλλοισι μεσαμβρίης, ἀλλ' ὑπερτείλας μέχρις οὗ ἀγορῆς δια-
-λύσιος· τοῦτον δὲ τὸν χρόνον καίει πολλῷ μᾶλλον ἢ τῇ 
-μεσαμβρίῃ τὴν Ἑλλάδα, οὕτω ὥστε ἐν ὕδατι λόγος αὐτούς 
-ἐστι βρέχεσθαι τηνικαῦτα· μεσοῦσα δὲ ἡ ἡμέρη σχεδὸν 
-παραπλησίως καίει τούς <τε> ἄλλους ἀνθρώπους καὶ τοὺς 
-Ἰνδούς· ἀποκλινομένης δὲ τῆς μεσαμβρίης γίνεταί σφι ὁ   
-ἥλιος κατά περ τοῖσι ἄλλοισι ὁ ἑωθινός· καὶ τὸ ἀπὸ τούτου 
-ἀπιὼν ἐπὶ μᾶλλον ψύχει, ἐς ὃ ἐπὶ δυσμῇσι ἐὼν καὶ τὸ 
-κάρτα ψύχει. 
-
-
-
-Herodotus Hist., Historiae 
-Book 3, section 105, line 1
-
-               Ἐπεὰν δὲ ἔλθωσι ἐς τὸν χῶρον οἱ Ἰνδοὶ 
-ἔχοντες θυλάκια, ἐμπλήσαντες ταῦτα τῆς ψάμμου τὴν 
-ταχίστην ἐλαύνουσι ὀπίσω· αὐτίκα γὰρ οἱ μύρμηκες ὀδμῇ, 
-ὡς δὴ λέγεται ὑπὸ Περσέων, μαθόντες διώκουσι. 
-
-
-
-Herodotus Hist., Historiae 
-Book 3, section 105, line 6
-
-                                                       Εἶναι δὲ 
-ταχυτῆτα οὐδενὶ ἑτέρῳ ὅμοιον, οὕτω ὥστε, εἰ μὴ προλαμ-
-βάνειν τοὺς Ἰνδοὺς τῆς ὁδοῦ ἐν ᾧ τοὺς μύρμηκας συλλέγε-
-σθαι, οὐδένα ἄν σφεων ἀποσῴζεσθαι. 
-
-
-
-Herodotus Hist., Historiae 
-Book 3, section 105, line 12
-
-                  Τὸν μὲν δὴ πλέω τοῦ χρυσοῦ οὕτω οἱ 
-Ἰνδοὶ κτῶνται, ὡς Πέρσαι φασί· ἄλλος δὲ σπανιώτερός 
-ἐστι ἐν τῇ χώρῃ ὀρυσσόμενος. 
-
-
-
-Herodotus Hist., Historiae 
-Book 3, section 106, line 4
-
-             Τοῦτο μὲν γὰρ πρὸς τὴν ἠῶ ἐσχάτη τῶν οἰκεο-
-μένων ἡ Ἰνδική ἐστι, ὥσπερ ὀλίγῳ πρότερον εἴρηκα· ἐν 
-ταύτῃ τοῦτο μὲν τὰ ἔμψυχα, <τὰ> τετράποδά τε καὶ τὰ 
-πετεινά, πολλῷ μέζω ἢ ἐν τοῖσι ἄλλοισι χωρίοισί ἐστι, πά-
-ρεξ τῶν ἵππων (οὗτοι δὲ ἑσσοῦνται ὑπὸ τῶν Μηδικῶν,   
-Νησαίων δὲ καλεομένων ἵππων), τοῦτο δὲ χρυσὸς ἄπλετος 
-αὐτόθι ἐστί, ὁ μὲν ὀρυσσόμενος, ὁ δὲ καταφορεόμενος ὑπὸ 
-[τῶν] ποταμῶν, ὁ δὲ ὥσπερ ἐσήμηνα ἁρπαζόμενος. 
-
-
-
-Herodotus Hist., Historiae 
-Book 3, section 106, line 12
-
-                                                         Τὰ δὲ 
-δένδρεα τὰ ἄγρια αὐτόθι φέρει καρπὸν εἴρια καλλονῇ τε 
-προφέροντα καὶ ἀρετῇ τῶν ἀπὸ τῶν ὀΐων· καὶ ἐσθῆτι Ἰνδοὶ 
-ἀπὸ τούτων τῶν δενδρέων χρέωνται. 
-
-
-
-Herodotus Hist., Historiae 
-Book 4, section 40, line 7
-
-       Μέχρι δὲ τῆς Ἰνδικῆς οἰκέεται [ἡ] Ἀσίη· τὸ δὲ   
-ἀπὸ ταύτης ἔρημος ἤδη τὸ πρὸς τὴν ἠῶ, οὐδὲ ἔχει οὐδεὶς 
-φράσαι οἷον δή τι ἐστί. 
-
-
-
-Herodotus Hist., Historiae 
-Book 4, section 44, line 2
-
-Τῆς δὲ Ἀσίης τὰ πολλὰ ὑπὸ Δαρείου ἐξευρέθη, ὃς 
-βουλόμενος Ἰνδὸν ποταμόν, ὃς κροκοδείλους δεύτερος 
-οὗτος ποταμῶν πάντων παρέχεται, τοῦτον τὸν ποταμὸν 
-εἰδέναι τῇ ἐς θάλασσαν ἐκδιδοῖ, πέμπει πλοίοισι ἄλλους τε   
-τοῖσι ἐπίστευε τὴν ἀληθείην ἐρέειν καὶ δὴ καὶ Σκύλακα 
-ἄνδρα Καρυανδέα. 
-
-
-
-Herodotus Hist., Historiae 
-Book 4, section 44, line 12
-
-                                                         Μετὰ 
-δὲ τούτους περιπλώσαντας Ἰνδούς τε κατεστρέψατο 
-Δαρεῖος καὶ τῇ θαλάσσῃ ταύτῃ ἐχρᾶτο. 
-
-
-
-Herodotus Hist., Historiae 
-Book 5, section 3, line 1
-
-Θρηίκων δὲ ἔθνος μέγιστόν ἐστι μετά γε Ἰνδοὺς πάντων 
-ἀνθρώπων· εἰ δὲ ὑπ' ἑνὸς ἄρχοιτο ἢ φρονέοι κατὰ τὠυτό, 
-ἄμαχόν τ' ἂν εἴη καὶ πολλῷ κράτιστον πάντων ἐθνέων κατὰ 
-γνώμην τὴν ἐμήν· ἀλλὰ γὰρ τοῦτο ἄπορόν σφι καὶ ἀμήχανον 
-μή κοτε ἐγγένηται· εἰσὶ δὴ κατὰ τοῦτο ἀσθενέες. 
-
-
-
-Herodotus Hist., Historiae 
-Book 7, section 9, line 6
-
-                                                   Καὶ γὰρ δεινὸν 
-ἂν εἴη πρῆγμα, εἰ Σάκας μὲν καὶ Ἰνδοὺς καὶ Αἰθίοπάς τε 
-καὶ Ἀσσυρίους ἄλλα τε ἔθνεα πολλὰ καὶ μεγάλα, ἀδικήσαντα 
-Πέρσας οὐδέν, ἀλλὰ δύναμιν προσκτᾶσθαι βουλόμενοι, 
-καταστρεψάμενοι δούλους ἔχομεν, Ἕλληνας δὲ ὑπάρξαντας 
-ἀδικίης οὐ τιμωρησόμεθα. 
-
-
-
-Herodotus Hist., Historiae 
-Book 7, section 65, line 1
-
-                                                   Βακτρίων 
-δὲ καὶ Σακέων ἦρχε Ὑστάσπης ὁ Δαρείου τε καὶ Ἀτόσσης 
-τῆς Κύρου. Ἰνδοὶ δὲ εἵματα μὲν ἐνδεδυκότες ἀπὸ ξύλων 
-πεποιημένα, τόξα δὲ καλάμινα εἶχον καὶ ὀϊστοὺς καλαμί-
-νους· ἐπὶ δὲ σίδηρος ἦν· ἐσταλμένοι μὲν δὴ ἦσαν οὕτω 
-Ἰνδοί, προσετετάχατο δὲ συστρατευόμενοι Φαρναζάθρῃ τῷ 
-Ἀρταβάτεω. 
-
-
-
-Herodotus Hist., Historiae 
-Book 7, section 65, line 4
-
-              Ἰνδοὶ δὲ εἵματα μὲν ἐνδεδυκότες ἀπὸ ξύλων 
-πεποιημένα, τόξα δὲ καλάμινα εἶχον καὶ ὀϊστοὺς καλαμί-
-νους· ἐπὶ δὲ σίδηρος ἦν· ἐσταλμένοι μὲν δὴ ἦσαν οὕτω 
-Ἰνδοί, προσετετάχατο δὲ συστρατευόμενοι Φαρναζάθρῃ τῷ 
-Ἀρταβάτεω. 
-
-
-
-Herodotus Hist., Historiae 
-Book 7, section 70, line 3
-
-             Τῶν μὲν δὴ ὑπὲρ Αἰγύπτου Αἰθιόπων καὶ 
-Ἀραβίων ἦρχε Ἀρσάμης, οἱ δὲ ἀπὸ ἡλίου ἀνατολέων 
-Αἰθίοπες (διξοὶ γὰρ δὴ ἐστρατεύοντο) προσετετάχατο τοῖσι 
-Ἰνδοῖσι, διαλλάσσοντες εἶδος μὲν οὐδὲν τοῖσι ἑτέροισι, 
-φωνὴν δὲ καὶ τρίχωμα μοῦνον· οἱ μὲν γὰρ ἀπὸ ἡλίου Αἰ-
-θίοπες ἰθύτριχές εἰσι, οἱ δ' ἐκ τῆς Λιβύης οὐλότατον τρί-
-χωμα ἔχουσι πάντων ἀνθρώπων. 
-
-
-
-Herodotus Hist., Historiae 
-Book 7, section 70, line 7
-
-                                  Οὗτοι δὲ οἱ ἐκ τῆς Ἀσίης 
-Αἰθίοπες τὰ μὲν πλέω κατά περ Ἰνδοὶ ἐσεσάχατο, προμε-
-τωπίδια δὲ ἵππων εἶχον ἐπὶ τῇσι κεφαλῇσι σύν τε τοῖσι 
-ὠσὶ ἐκδεδαρμένα καὶ τῇ λοφιῇ· καὶ ἀντὶ μὲν λόφου ἡ λοφιὴ 
-κατέχρα, τὰ δὲ ὦτα τῶν ἵππων ὀρθὰ πεπηγότα εἶχον· προ-
-βλήματα δὲ ἀντ' ἀσπίδων ἐποιεῦντο γεράνων δοράς. 
-
-
-
-Herodotus Hist., Historiae 
-Book 7, section 86, line 2
-
-                                                 Μῆδοι δὲ τήν 
-περ ἐν τῷ πεζῷ εἶχον σκευήν· καὶ Κίσσιοι ὡσαύτως. Ἰνδοὶ 
-δὲ σκευῇ μὲν ἐσεσάχατο τῇ αὐτῇ καὶ ἐν τῷ πεζῷ, ἤλαυνον 
-δὲ κέλητας καὶ ἅρματα· ὑπὸ δὲ τοῖσι ἅρμασι ὑπῆσαν ἵπποι 
-καὶ ὄνοι ἄγριοι. 
-
-
-
-Herodotus Hist., Historiae 
-Book 7, section 187, line 5
-
-           Γυναικῶν δὲ σιτοποιῶν καὶ παλλακέων καὶ 
-εὐνούχων οὐδεὶς ἂν εἴποι ἀτρεκέα ἀριθμόν· οὐδ' αὖ ὑποζυ-
-γίων τε καὶ τῶν ἄλλων κτηνέων τῶν ἀχθοφόρων καὶ κυνῶν 
-Ἰνδικῶν τῶν ἑπομένων, οὐδ' ἂν τούτων ὑπὸ πλήθεος οὐδεὶς 
-ἂν εἴποι ἀριθμόν. 
-
-
-
-Herodotus Hist., Historiae 
-Book 8, section 113, line 12
-
-           Ὡς δὲ ἀπίκατο ἐς τὴν Θεσσαλίην, ἐνθαῦτα 
-Μαρδόνιος ἐξελέγετο πρώτους μὲν τοὺς μυρίους Πέρσας 
-τοὺς Ἀθανάτους καλεομένους, πλὴν Ὑδάρνεος τοῦ στρατη-
-γοῦ (οὗτος γὰρ οὐκ ἔφη λείψεσθαι βασιλέος), μετὰ δὲ τῶν 
-ἄλλων Περσέων τοὺς θωρηκοφόρους καὶ τὴν ἵππον τὴν 
-χιλίην, καὶ Μήδους τε καὶ Σάκας καὶ Βακτρίους [τε] καὶ 
-Ἰνδούς, καὶ τὸν πεζὸν καὶ τὴν ἵππον. 
-
-
-
-Herodotus Hist., Historiae 
-Book 9, section 31, line 19
-
-                                   Μετὰ δὲ Βακτρίους 
-ἔστησε Ἰνδούς· οὗτοι δὲ ἐπέσχον Ἑρμιονέας τε καὶ Ἐρε-
-τριέας καὶ Στυρέας τε καὶ Χαλκιδέας. 
-
-
-
+\section{Joannes Scylitzes Hist.}
 Joannes Scylitzes Hist., Synopsis historiarum (3063: 001)
 “Ioannis Scylitzae synopsis historiarum”, Ed. Thurn, J.
 Berlin: De Gruyter, 1973; Corpus fontium historiae Byzantinae 5. Series Berolinensis.
@@ -53289,6 +52898,7 @@ Emperor life Mich6, section 12, line 67
 καὶ εἰσελθὼν κρατεῖ τὰ ἀνάκτορα. 
 
 
+\section{Pytheas Perieg.}
 
 Pytheas Perieg., Fragmenta (1650: 001)
 “Pytheas von Massalia”, Ed. Mette, H.J.
@@ -53298,7 +52908,7 @@ Fragment 5, line 17
             τί<ς> γὰρ ἡ πιθανότης πρῶτον μὲν τῆς κατὰ   
 τὸν Ἰνδὸν περιπετείας; 
 
-
+(See also Posidonius Phil., Fragment 13, line 209.)
 
 Pytheas Perieg., Fragmenta 
 Fragment 6a, line 52
@@ -53351,6 +52961,7 @@ KOSMAS DER INDIENFAHRER Χριστιανικὴ
 νυκτῶν ἀεὶ γενομένου παρ' αὐτοῖς. 
 
 
+\section{Maximus Confessor Theol.)}
 
 Maximus Confessor Theol., Quaestiones et dubia (2892: 002)
 “Maximi confessoris quaestiones et dubia”, Ed. Declerck, J.H.
@@ -53367,7 +52978,6 @@ Section 119, line 20
 τουτέστιν ἐπὶ τῆς ὑψηλῆς θεωρίας, οὐκέτι οἱ λογισμοὶ 
 ἰνδαλμάτων ἀλλὰ τοῦ φωτὸς τῆς γνώσεως τέλειον ἐν 
 μετουσίᾳ γίνονται. 
-
 
 
 Maximus Confessor Theol., Scholia in Ecclesiasten (in catenis: catena trium patrum) (2892: 097)
@@ -53401,7 +53011,7 @@ Book 1, chapter 19, line 2
 ἀρχήν. 
 
 
-
+\section{Socrates Scholasticus Hist.}
 Socrates Scholasticus Hist., Historia ecclesiastica 
 Book 1, chapter 19, line 10
 
@@ -53474,6 +53084,7 @@ Book 1, chapter 19, line 54
 
 
 
+\section{Sextus Empiricus Phil.}
 Sextus Empiricus Phil., Pyrrhoniae hypotyposes (0544: 001)
 “Sexti Empirici opera, vol. 1”, Ed. Mutschmann, H.
 Leipzig: Teubner, 1912.
@@ -53629,7 +53240,7 @@ Book 11, section 122, line 10
 λάργυρος. 
 
 
-
+\section{Eustathius Philol., Scr. Eccl.}
 Eustathius Philol., Scr. Eccl., Commentarii ad Homeri Iliadem (4083: 001)
 “Eustathii archiepiscopi Thessalonicensis commentarii ad Homeri Iliadem pertinentes, vols. 1–4”, Ed. van der Valk, M.
 Leiden: Brill, 1:1971; 2:1976; 3:1979; 4:1987.
@@ -54896,7 +54507,7 @@ Section 1153, line 76
 δοὺς στρατεύσας Διόνυσος. 
 
 
-
+\section{Scholia In Aristotelem}
 Scholia In Aristotelem, Scholia in Aristotelis sophisticos elenchos (scholia recentiora) (e cod. Vat. Urb. gr. 35) (5015: 001)
 “”Vaticanus Urbinas Graecus 35. An edition of the scholia on Aristotle's sophistici elenchi””, Ed. Bülow–Jacobsen, A., Ebbesen, S., 1982; Cahiers de l'Institut du moyen–âge grec et latin 43.
 Bekker page 5, line 167a7-8m, line of scholion 1
@@ -54915,7 +54526,7 @@ Bekker page 5, line 167a7-8m, line of scholion 1
 
 
 
-
+\section{Uranius Hist.}
 Uranius Hist., Fragmenta (2461: 003)
 “FHG 4”, Ed. Müller, K.
 Paris: Didot, 1841–1870.
@@ -54924,8 +54535,7 @@ Fragment 20, line 1
 Idem: Σῆρες, ἔθνος Ἰνδικὸν, ἀπροσμιγὲς ἀνθρώ-
 ποις, ὡς Οὐράνιος ἐν τρίτῳ Ἀραβικῶν. 
 
-
-
+\section{Sopater Rhet.}
 Sopater Rhet., Scholia ad Hermogenis status seu artem rhetoricam (2031: 002)
 “Rhetores Graeci, vol. 5”, Ed. Walz, C.
 Stuttgart: Cotta, 1833, Repr. 1968.
@@ -54941,7 +54551,7 @@ Volume 5, page 4, line 13
 χώρας, καὶ πρεσβύτῃ καὶ νέῳ διαφόρως. 
 
 
-
+\section{Theognostus Gramm.}
 Theognostus Gramm., Canones sive De orthographia (3128: 001)
 “Anecdota Graeca e codd. manuscriptis bibliothecarum Oxoniensium, vol. 2”, Ed. Cramer, J.A.
 Oxford: Oxford University Press, 1835, Repr. 1963.
@@ -55033,7 +54643,7 @@ Section 999, line 1
 ὀστρακίνδα, καὶ εἴτι ἕτερον. 
 
 
-
+\section{Pseudo-Zonaras Lexicogr.}
 Pseudo-Zonaras Lexicogr., Lexicon (3136: 001)
 “Iohannis Zonarae lexicon ex tribus codicibus manuscriptis, 2 vols.”, Ed. Tittmann, J.A.H.
 Leipzig: Crusius, 1808, Repr. 1967.
@@ -55166,7 +54776,7 @@ Alphabetic letter tau, page 1738, line 13
 
 
 
-
+\section{Scholia In Lucianum}
 Scholia In Lucianum, Scholia in Lucianum (scholia vetera et recentiora Arethae) (5029: 001)
 “Scholia in Lucianum”, Ed. Rabe, H.
 Leipzig: Teubner, 1906, Repr. 1971.
@@ -55189,7 +54799,7 @@ Lucianic work 77,25, section 6, line 2
 ⌊καὶ⌋ ταῦτα φιλοσοφεῖν ἐ⌊π⌋ανῃρημένος. 
 
 
-
+\section{(H)eren(n)ius Philo Gramm.}
 (H)eren(n)ius Philo Gramm., Hist., Fragmenta (1416: 006)
 “FGrH \#790”.
 Volume-Jacobyʹ-F 3c,790,F, fragment 26, line 4
@@ -55210,7 +54820,7 @@ Fragment 16, line 11
 ἣν ἀναγράφει Φίλων καὶ Δημοδάμας ὁ Μιλήσιος. 
 
 
-
+\section{Hippocrates et Corpus Hippocraticum Med.}
 Hippocrates et Corpus Hippocraticum Med., De mulierum affectibus i–iii (0627: 036)
 “Oeuvres complètes d'Hippocrate, vol. 8”, Ed. Littré, É.
 Paris: Baillière, 1853, Repr. 1962.
@@ -55273,7 +54883,7 @@ Epistle 18, line 8
 γραφεῖσαι. 
 
 
-
+\section{Anonymi Medici Med.}
 Anonymi Medici Med., De urinis secundum Syros (0721: 012)
 “Physici et medici Graeci minores, vol. 2”, Ed. Ideler, J.L.
 Berlin: Reimer, 1842, Repr. 1963.
@@ -55317,7 +54927,7 @@ Volume 2, page 325, line 29
 καὶ δύναμιν, κενοῦται γὰρ ἡ χολή. 
 
 
-
+\section{Dionysius Hist.}
 Dionysius Hist., Fragmenta (2354: 002)
 “FHG 2”, Ed. Müller, K.
 Paris: Didot, 1841–1870.
@@ -55332,7 +54942,7 @@ Fragment 5, line 7
 ἄλλων ὀστῶν Ἰνδικοῦ θηρίου. 
 
 
-
+\section{Hesychius Lexicogr.}
 Hesychius Lexicogr., Lexicon (Α – Ο) (4085: 002)
 “Hesychii Alexandrini lexicon, vols. 1–2”, Ed. Latte, K.
 Copenhagen: Munksgaard, 1:1953; 2:1966.
@@ -55731,6 +55341,8 @@ Alphabetic letter chi, entry 582, line 1
 <χοίνικες>· αἱ βαθεῖαι πέδαι. 
 
 
+\section{Achilles Tatius Scr. Erot.}
+
 Achilles Tatius Scr. Erot., Leucippe et Clitophon (0532: 001)
 “Achilles Tatius. Leucippe and Clitophon”, Ed. Vilborg, E.
 Stockholm: Almqvist \& Wiksell, 1955.
@@ -55819,7 +55431,7 @@ Book 4, chapter 5, section 3, line 1
 βουσὶ παρ' ἡμῖν ἡ πόα. 
 
 
-
+\section{Antenor Hist.}
 Antenor Hist., Fragmentum (2322: 003)
 “FHG 4”, Ed. Müller, K.
 Paris: Didot, 1841–1870.
@@ -55831,7 +55443,7 @@ Fragment 1, line 14
 κρὰς ἐντυχεῖν, ὡς ἐκεῖναι ἦσαν. 
 
 
-
+\section{Julianus Scr. Eccl.}
 Julianus Scr. Eccl., Commentarius in Job (4105: 001)
 “Der Hiobkommentar des Arianers Julian”, Ed. Hagedorn, D.
 Berlin: De Gruyter, 1973; Patristische Texte uns Studien 14.
@@ -55887,6 +55499,7 @@ Page 311, line 19
 
 
 
+\section{Lycophron Trag.}
 Lycophron Trag., Alexandra (0341: 002)
 “Lycophronis Alexandra”, Ed. Mascialino, L.
 Leipzig: Teubner, 1964.
@@ -55924,7 +55537,7 @@ Line 961
 τρισσῶν συνοικιστῆρα καὶ κτίστην τόπων. 
 
 
-
+\section{Paulus Silentiarius Poeta}
 Paulus Silentiarius Poeta, Descriptio Sanctae Sophiae (4039: 001)
 “Prokop. Werke, vol. 5 [Die Bauten]”, Ed. Veh, O.
 Munich: Heimeran, 1977.
@@ -55959,7 +55572,7 @@ Line 694
 ἐσσομένου Χριστοῖο διέπτατο θέσπις ἀοιδή. 
 
 
-
+\section{Simplicius Phil.}
 Simplicius Phil., In Aristotelis quattuor libros de caelo commentaria (4013: 001)
 “Simplicii in Aristotelis de caelo commentaria”, Ed. Heiberg, J.L.
 Berlin: Reimer, 1894; Commentaria in Aristotelem Graeca 7.
@@ -55973,7 +55586,7 @@ Volume 7, page 548, line 2
 τε Ἐρυθρὰν καλουμένην καὶ τὴν παρ' ἡμῖν. 
 
 
-
+\section{Oppianus Epic.}
 Oppianus Epic., Halieutica (0023: 001)
 “Oppian, Colluthus, Tryphiodorus”, Ed. Mair, A.W.
 Cambridge, Mass.: Harvard University Press, 1928, Repr. 1963.
@@ -55999,7 +55612,7 @@ Book 5, line 17
 οὐρήων ταλαεργὸν ἔχειν πόνον ἑλκυστῆρα. 
 
 
-
+\section{Pseudo-Symeon Hist.}
 Pseudo-Symeon Hist., Chronographia (partim edita e cod. Paris. gr. 1712) (3182: 001)
 “Theophanes Continuatus, Ioannes Cameniata, Symeon Magister, Georgius Monachus”, Ed. Bekker, I.
 Bonn: Weber, 1838; Corpus scriptorum historiae Byzantinae.
@@ -56198,7 +55811,7 @@ Page 756, line 17
 μεθ' Ἑλένης τῆς μητρὸς αὐτοῦ. 
 
 
-
+\section{Joannes Antiochenus Hist.}
 Joannes Antiochenus Hist., Fragmenta (4394: 001)
 “FHG 4”, Ed. Müller, K.
 Paris: Didot, 1841–1870.
@@ -56249,7 +55862,7 @@ Fragment 214, line 71
 λοιπὸν ἐσχόλαζεν ἐν ἀναγνώσει βιβλίων. 
 
 
-
+\section{Cosmas Indicopleustes Geogr.}
 Cosmas Indicopleustes Geogr., Topographia Christiana (4061: 002)
 “Cosmas Indicopleustès. Topographie chrétienne, 3 vols.”, Ed. Wolska–Conus, W.
 Paris: Cerf, 1:1968; 2:1970; 3:1973; Sources chrétiennes 141, 159, 197.
@@ -56745,6 +56358,7 @@ Book 11, section 24, line 12
 χώρας ὁ Περσικὸς κόλπος διαιρεῖ. 
 
 
+\section{Cyrillus Biogr.}
 
 Cyrillus Biogr., Vita Euthymii (2877: 001)
 “Kyrillos von Skythopolis”, Ed. Schwartz, E.
@@ -57357,6 +56971,7 @@ Page 184, line 13
 
 
 
+\section{Clemens Romanus et Clementina Theol.}
 
 Clemens Romanus et Clementina Theol., Epistula i ad Corinthios (1271: 001)
 “Clément de Rome. Épître aux Corinthiens”, Ed. Jaubert, A.
@@ -57448,20 +57063,21 @@ Book 9, chapter 25, line 13
 \end{greek}
 
 %Something in the below breaks the run
-\begin{comment}
-
+%\begin{comment}
 
 Clemens Romanus et Clementina Theol., Recognitiones (ex Eusebio) [Sp.] Book 9, chapter 27, line 2
 
+\begin{greek}
 μνημονεύειν τε ὀφείλετε ὧν προεῖπον, ὅτι καὶ ἐν ἑνὶ κλίματι καὶ ἐν μιᾷ χώρᾳ   
 τῶν Ἰνδῶν εἰσιν ἀνθρωποφάγοι Ἰνδοὶ καί εἰσιν οἱ ἐμψύχων ἀπεχόμενοι· 
 καὶ ὅτι οἱ Μαγουσαῖοι οὐκ ἐν Περσίδι μόνῃ τὰς θυγατέρας γαμοῦσιν, ἀλλὰ 
 καὶ ἐν παντὶ ἔθνει, ὅπου ἂν οἰκήσωσι, τοὺς τῶν προγόνων φυλάσσοντες 
 νόμους καὶ τῶν μυστηρίων αὐτῶν τὰς τελετάς. 
+\end{greek}
 
 
 %something in the above breaks the run 
-\end{comment}
+%\end{comment}
 
 \begin{greek}
 
@@ -57565,6 +57181,8 @@ Section 45, line 2
 κότων λέγει. 
 
 
+\section{Philosophus Christianus Alchem.}
+
 Philosophus Christianus Alchem., Τίς ἡ ἐν ἀποκρύφοις τῶν παλαιῶν ἐκδιδομένη τάξις (e cod. Venet. Marc. 299, fol. 124v) (4328: 012)
 “Collection des anciens alchimistes grecs, vol. 2”, Ed. Berthelot, M., Ruelle, C.É.
 Paris: Steinheil, 1888, Repr. 1963.
@@ -57575,6 +57193,7 @@ Volume 2, page 418, line 22
 τουτέστιν οἱ ἰνδικοβάφοι. 
 
 
+\section{Scholia In Dionysium Periegetam}
 
 Scholia In Dionysium Periegetam, Scholia in Dionysii periegetae orbis descriptionem (scholia vetera) (olim sub auctore Demetrio Lampsaceno) (5019: 001)
 “Geographi Graeci minores, vol. 2”, Ed. Müller, K.
@@ -57747,6 +57366,7 @@ Vita-scholion 43, line 14
 
 
 
+\section{Flavius Josephus Hist.}
 Flavius Josephus Hist., Antiquitates Judaicae (0526: 001)
 “Flavii Iosephi opera, vols. 1–4”, Ed. Niese, B.
 Berlin: Weidmann, 1:1887; 2:1885: 3:1892; 4:1890, Repr. 1955.
@@ -57937,6 +57557,8 @@ Book 7, section 357, line 1
 
 
 
+\section{Zosimus Hist.}
+
 Zosimus Hist., Historia nova (4084: 001)
 “Zosime. Histoire nouvelle, vols. 1–3.2”, Ed. Paschoud, F.
 Paris: Les Belles Lettres, 1:1971; 2.1–2.2:1979; 3.1:1986; 3.2:1989.
@@ -57951,6 +57573,7 @@ Book 1, chapter 5, section 1, line 2
 ὑποχείρια. 
 
 
+\section{Hephaestion Astrol.}
 
 Hephaestion Astrol., Apotelesmatica (2043: 001)
 “Hephaestionis Thebani apotelesmaticorum libri tres, vol. 1”, Ed. Pingree, D.
@@ -58165,7 +57788,7 @@ Page xxii, line 2
 κρατηθέντος. 
 
 
-
+\section{Antiphon Orat.}
 Antiphon Orat., Fragmenta (0028: 008)
 “Antiphontis orationes et fragmenta”, Ed. Thalheim, T. (post F. Blass)
 Leipzig: Teubner, 1914, Repr. 1982.
@@ -58178,7 +57801,7 @@ Fragment 25-33t, line 1
 <Ἀμφίπολις>· Ἀ. 
 
 
-
+\section{Pausanias Perieg.}
 Pausanias Perieg., Graeciae descriptio (0525: 001)
 “Pausaniae Graeciae descriptio, 3 vols.”, Ed. Spiro, F.
 Leipzig: Teubner, 1903, Repr. 1:1967.
@@ -58407,7 +58030,7 @@ Book 10, chapter 29, section 4, line 5
 κισσοῦ κλήμασι. 
 
 
-
+\section{Alexander Med.}
 Alexander Med., Therapeutica (0744: 003)
 “Alexander von Tralles, vols. 1–2”, Ed. Puschmann, T.
 Vienna: Braumüller, 1:1878; 2:1879, Repr. 1963.
@@ -58496,6 +58119,8 @@ Volume 2, page 543, line 21
 
 
 
+
+\section{Claudius Aelianus Soph.}
 Claudius Aelianus Soph., De natura animalium (0545: 001)
 “Claudii Aeliani de natura animalium libri xvii, varia historia, epistolae, fragmenta, vol. 1”, Ed. Hercher, R.
 Leipzig: Teubner, 1864, Repr. 1971.
@@ -60271,6 +59896,7 @@ Fragment 106, line 18
 
 
 
+\section{Procopius Rhet., Scr. Eccl.}
 Procopius Rhet., Scr. Eccl., Catena in Canticum canticorum (2598: 002); MPG 87.2.
 Page 1561, line 54
 
@@ -60365,7 +59991,7 @@ Spengel page 358, line 14
 ὑπὸ Ἀδριανοῦ. 
 
 
-
+\section{Etymologicum Genuinum}
 Etymologicum Genuinum, Etymologicum genuinum (ἀνάβλησις – βώτορες) (4097: 002)
 “Etymologicum magnum genuinum. Symeonis etymologicum una cum magna grammatica. Etymologicum magnum auctum, vol. 2”, Ed. Lasserre, F., Livadaras, N.
 Athens: Parnassos Literary Society, 1992.
@@ -60383,7 +60009,7 @@ Alphabetic letter alpha, entry 1332, line 4
   ἀσχαλάᾳ. 
 
 
-
+\section{Scholia In Pindarum}
 Scholia In Pindarum, Scholia in Pindarum (scholia vetera) (5034: 001)
 “Scholia vetera in Pindari carmina, 3 vols.”, Ed. Drachmann, A.B.
 Leipzig: Teubner, 1:1903; 2:1910; 3:1927, Repr. 1:1969; 2:1967; 3:1966.
@@ -60399,6 +60025,7 @@ M.) ἐν τῷ περὶ ἐλεφάντων φησί· τῶν δὲ Ἰνδι
 
 
 
+\section{Posidonius Phil.}
 Posidonius Phil., Fragmenta (1052: 001)
 “Posidonios. Die Fragmente, vol. 1”, Ed. Theiler, W.
 Berlin: De Gruyter, 1982.
@@ -60793,6 +60420,7 @@ Volume-Jacobyʹ-F 2a,87,F, fragment 114, line 103
 
 
 
+\section{Eratosthenes et Eratosthenica Philol.}
 Eratosthenes et Eratosthenica Philol., Catasterismi (0222: 001)
 “Pseudo–Eratosthenis catasterismi”, Ed. Olivieri, A.
 Leipzig: Teubner, 1897; Mythographi Graeci 3.1.
@@ -60848,36 +60476,7 @@ Epistle 7, line 21
 
 \begin{comment}
 
-\part{Raw, unsorted TLG data of ``Ινδ--''}
 
-\section{}
-\blockquote[From Wikipedia\footnote{\url{}}]{}
-\begin{greek}
-\end{greek}
-
-\section{}
-\blockquote[From Wikipedia\footnote{\url{}}]{}
-\begin{greek}
-\end{greek}
-
-\section{}
-\blockquote[From Wikipedia\footnote{\url{}}]{}
-\begin{greek}
-\end{greek}
-
-\section{}
-\blockquote[From Wikipedia\footnote{\url{}}]{}
-\begin{greek}
-\end{greek}
-
-\section{}
-\blockquote[From Wikipedia\footnote{\url{}}]{}
-\begin{greek}
-\end{greek}
-
-\chapter{Raw PHI5 data of ``Ind--'}
-
-Reject pattern: ind[e|u|ig|icat|oc|om|or|ol|on]
 
 \printbibliography
 
